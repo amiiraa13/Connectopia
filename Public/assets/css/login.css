@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style de la page */
+body {
+    font-family: Arial, sans-serif;
+    background: url(../images/baack.jpg);
+   
+}
+header {
+    background-color: #907f7a; /* Couleur principale plus taupe */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 100px;
+    width: 100%;
+}
+main{
+    display: flex;
+   justify-content: space-evenly;
+    align-items: center;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Style du formulaire de connexion et d'inscription */
+form {
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    border: solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+
+}
+#boxOne{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 35%;
+    border: solid #ccc;
+    border-radius: 8px;
+    padding-top: 10px;
+}
+#boxTwo{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 35%;
+    border: solid #ccc;
+    border-radius: 8px;
+    padding-top: 10px;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    
+}
+#text{
+    color: #dc3545;
+}
+/* form > input[type="text"],
+form > input[type="password"] {
+    
+} */
+
+form > button[type="submit"] {
+    
+    padding: 10px 20px;
+    background-color: #907f7a;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button{
+    padding: 10px 20px;
+    background-color: #907f7a;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+form > button[type="submit"]:hover {
+    background-color: #5f6a6a;
+}
+
+/* Style des erreurs */
+.error-message {
+    color: #dc3545;
+    margin-bottom: 10px;
+}
